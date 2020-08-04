@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.bridginghealthcare.MainActivity">
+
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="182dp"
+        android:ems="10"
+        android:hint="Usuário"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUser"
+        android:layout_alignStart="@+id/txtUser"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnRecuperar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_alignStart="@+id/txtEmail"
+        android:layout_alignEnd="@+id/txtEmail"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/buttonshape"
+        android:text="Recuperar Senha"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="46dp"
+        android:text="RECUPERAR SENHA"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="20dp" />
+</RelativeLayout>

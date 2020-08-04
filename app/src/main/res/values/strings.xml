@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AppAndroid</string>
+    <string name="btnlogin">Login</string>
+    <string name="txtUser">Usuário</string>
+    <string name="txtPassword">Senha</string>
+    <string name="lblCadastrar"><u>Não tem uma conta? Cadastre-se</u></string>
+    <string name="imgView">Logo</string>
+    <string name="lblSenha"><u>Esqueci a senha</u></string>
+    <string name="imgSplashlogo">LogoSplash</string>
+    <string name="Nome">Nome</string>
+    <string name="Sobrenome">Sobrenome</string>
+    <string name="Email">Email</string>
+    <string name="DataMasc">Data de nascimento</string>
+    <string name="Senha">Senha</string>
+    <string name="ConfirmarSenha">Confirmar Senha</string>
+    <string name="EmailDev"><u>guilherme.lopes40@fatec.sp.gov.br</u></string>
+    <string name="OpenSource1">Copyright (c) [2019] [Bridging Healthcare]</string>
+    <string name="btnOpenSource">Open Source licenses</string>
+    <string name="nomeapp">Bridging Healthcare</string>
+
+    <string name="OpenSource2">Is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:</string>
+
+    <string name="OpenSource3">Above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.</string>
+
+    <string name="Opensource4">SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE</string>
+    <string name="Privacidade">Todas as suas informações pessoais recolhidas, serão usadas para o ajudar a tornar a sua visita no nosso aplicativo o mais produtiva e agradável possível.A garantia da confidencialidade dos dados pessoais dos utilizadores do nosso site é importante para o Bridging Healthcare.Todas as informações pessoais relativas a membros, assinantes, clientes ou visitantes que usem o Bridging Healthcare serão tratadas em concordância com a Lei da Proteção de Dados Pessoais de 26 de outubro de 1998 (Lei n.º 67/98).A informação pessoal recolhida pode incluir o seu nome, e-mail, número de telefone e/ou telemóvel, morada, data de nascimento e/ou outros.O uso do Bridging Healthcare pressupõe a aceitação deste Acordo de privacidade. A equipa do Bridging Healthcare reserva-se ao direito de alterar este acordo sem aviso prévio. Deste modo, recomendamos que consulte a nossa política de privacidade com regularidade de forma a estar sempre atualizado.Os anúncios Tal como outros websites, coletamos e utilizamos informação contida nos anúncios. A informação contida nos anúncios, inclui o seu endereço IP (Internet Protocol), o seu ISP (Internet Service Provider, como o Sapo, Clix, ou outro), o browser que utilizou ao visitar o nosso website (como o Internet Explorer ou o Firefox), o tempo da sua visita e que páginas visitou dentro do nosso aplicativo.</string>
+
+</resources>

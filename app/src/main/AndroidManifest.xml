@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.appandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo02"
+        android:label="@string/nomeapp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="com.example.bridginghealthcare.APIActivity"></activity>
+        <activity android:name="com.example.bridginghealthcare.Actiity_Maps" />
+        <activity android:name="com.example.bridginghealthcare.AddPacienteActivity" />
+        <activity android:name="com.example.bridginghealthcare.PerfilPacienteActivity" />
+        <activity android:name="com.example.bridginghealthcare.PrivacidadeActivity" />
+        <activity android:name="com.example.bridginghealthcare.OpenSourceActivity" />
+        <activity android:name="com.example.bridginghealthcare.SobreActivity" />
+        <activity android:name="com.example.bridginghealthcare.EsqueciSenhaActivity" />
+        <activity android:name="com.example.bridginghealthcare.CadastroActivity" />
+        <activity android:name="com.example.bridginghealthcare.MenuActivity" />
+        <activity android:name="com.example.bridginghealthcare.MainActivity" />
+        <activity
+            android:name="com.example.bridginghealthcare.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC3Bhz2ad_hDaJ3b9TcU34pIJLJkEo5yWM" />
+    </application>
+
+</manifest>

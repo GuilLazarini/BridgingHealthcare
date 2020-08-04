@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.bridginghealthcare.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgPerfil"
+        android:layout_width="170dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        app:srcCompat="@drawable/ic_action_meu_perfil" />
+
+    <ImageView
+        android:id="@+id/imgMaps"
+        android:layout_width="170dp"
+        android:layout_height="161dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="9dp"
+        app:srcCompat="@drawable/ic_action_local" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="173dp"
+        android:layout_height="201dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="271dp"
+        android:layout_marginEnd="209dp"
+        app:srcCompat="@drawable/ic_action_settings" />
+
+    <ImageView
+        android:id="@+id/imgAddNew"
+        android:layout_width="170dp"
+        android:layout_height="161dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="497dp"
+        app:srcCompat="@drawable/ic_action_add_place" />
+
+    <ImageView
+        android:id="@+id/imgSobre"
+        android:layout_width="170dp"
+        android:layout_height="161dp"
+        android:layout_alignEnd="@+id/imgMaps"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="78dp"
+        app:srcCompat="@drawable/ic_action_info" />
+
+    <ImageView
+        android:id="@+id/imgApi"
+        android:layout_width="167dp"
+        android:layout_height="149dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="299dp"
+        app:srcCompat="@drawable/ic_action_note2" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="256dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/listDivider" />
+
+</RelativeLayout>

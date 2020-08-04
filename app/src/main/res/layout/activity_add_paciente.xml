@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.bridginghealthcare.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="219dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:text="Cadastrar"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <EditText
+        android:id="@+id/txtNewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="440dp"
+        android:ems="10"
+        android:hint="@string/Nome"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button" />
+
+    <EditText
+        android:id="@+id/txtNewSobrenome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="@string/Sobrenome"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/grey"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/txtNewName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNewName"
+        app:layout_constraintTop_toBottomOf="@+id/txtNewName" />
+
+    <EditText
+        android:id="@+id/txtDataNascCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="@string/DataMasc"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="@+id/txtNewSobrenome"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtNewSobrenome"
+        app:layout_constraintTop_toBottomOf="@+id/txtNewSobrenome" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
