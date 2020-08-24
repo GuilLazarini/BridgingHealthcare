@@ -1,5 +1,5 @@
-# APP Android
+# APP mobile
 
-JAVA
+Aplicativo desenvolvido para android utilizando a liguagem deprogramação JAVA e consumindo API
 
 
